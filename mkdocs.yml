@@ -1,0 +1,18 @@
+site_name: "Backstage Bootstrap"
+site_description: Documentation for Backstage Bootstrap
+repo_url: https://github.com/POps-Rox/backstage-bootstrap
+edit_uri: edit/main/docs/
+
+nav:
+  - Home: index.md
+
+plugins:
+  - techdocs-core
+
+markdown_extensions:
+  - pymdownx.highlight
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
