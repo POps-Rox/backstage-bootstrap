@@ -1,0 +1,20 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-bootstrap
+  description: Bootstrap scripts and IaC for deploying the Backstage developer portal
+  annotations:
+    github.com/project-slug: POps-Rox/backstage-bootstrap
+    backstage.io/techdocs-ref: dir:.
+  tags:
+    - backstage
+    - platform-ops
+  links:
+    - url: https://github.com/POps-Rox/backstage-bootstrap
+      title: GitHub Repository
+      icon: github
+spec:
+  type: service
+  owner: platform-ops-team
+  lifecycle: production
+  system: pops-rox-platform
